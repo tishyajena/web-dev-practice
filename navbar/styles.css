@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.middle a{
+    padding: 5px;
+}

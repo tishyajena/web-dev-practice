@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: Roboto, sans-serif;
+   
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section .component{
+    height: 400px;
+    width: 240px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.385);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section .component .top{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    height: 50%;
+    box-shadow: 0px px 10px rgba(0, 0, 0, 0.385);
+    display: top;
+}
+
+section .component .top button{
+    color: white;
+    background: black;
+    width: 90%;
+    height: 20%;
+    margin: 5px;
+    border-radius: 1.5rem;
+    align-items: center;
+}
+
+section .component .top .top1{
+    background-color: #f4f4f4e9;
+    border-radius: 1.0rem;
+    height: 60%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+section .component .top .top1 .small{
+    background-color: #fff;
+    margin: 15px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 1.0rem;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.oka{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+section .component .top .top2{
+    background-color: #f4f4f4e9;
+    border-radius: 1.0rem;
+    height: 60%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+section .component .top .top2 .small{
+    background-color: #fff;
+    margin: 15px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 1.0rem;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+section .component .top .top3{
+    background-color: #f4f4f4e9;
+    border-radius: 1.0rem;
+    height: 60%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+section .component .top .top3 .small{
+    background-color: #fff;
+    margin: 15px;
+    width: 110px;
+    padding: 10px;
+    border-radius: 1.0rem;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.component .top h4{
+    padding-left: 15px;
+}
