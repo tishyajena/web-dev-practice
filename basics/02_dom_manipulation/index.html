@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <ul class="language">
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+        
+    </body>
+    <script>
+        //CREATE
+        function addLanguage(langName){
+           const li = document.createElement('li');
+           li.innerHTML = `${langName}`;
+           const l = document.querySelector('.language');
+           l.appendChild(li);
+        }
+        addLanguage("C");
+        addLanguage("Typescript");
+
+        function addOptLang(langName){
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(langName));
+            document.querySelector('.language').appendChild(li);
+        }
+        addOptLang("golang");
+
+        //EDIT
+        const secondLang = document.querySelector("li:nth-child(2)");
+
+        const newLi = document.createElement('li');
+        newLi.textContent = "Mojo";
+        secondLang.replaceWith(newLi);
+
+        //REMOVE
+        const lastLang = document.querySelector('li:last-child');
+        lastLang.remove();
+    </script>
+</html>
