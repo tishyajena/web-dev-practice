@@ -1,0 +1,29 @@
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6a1564;
+    background-color: #F08CAE;
+}
+
+h1{
+    color: #58335e;
+    margin: 50px;
+    font-weight:bold;
+    text-decoration: underline wavy pink;
+}
+.game{
+    background: rgba(255, 255, 255, 0.881);
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 10px ;
+}
+#sub{
+    margin: 10px;
+}
+
