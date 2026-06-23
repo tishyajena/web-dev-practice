@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="square"></div>
+        <div class="circle"></div>
+        <div class="triangle"></div>
+        
+        <script>
+            const sq = document.querySelector('.square');
+            const circle = document.querySelector('.circle');
+            const tri = document.querySelector('.triangle');
+
+            sq.addEventListener('click', (e) => {
+                e.target.parentNode.removeChild(sq);
+            });
+
+            circle.addEventListener('click', (e) => {
+                e.target.parentNode.removeChild(circle);
+            });
+
+            tri.addEventListener('click', (e) => {
+                e.target.parentNode.removeChild(tri);
+            });
+
+        </script>
+    </body>
+</html>
